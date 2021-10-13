@@ -20,7 +20,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #3B6DBC;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -28,7 +28,7 @@ section {
 
 footer{
     
-    background-color: black;
+    background-color: #083172;
     color: white;
     text-align: center;
     padding: 80px;
@@ -198,7 +198,7 @@ a {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #323442;
+        background-color: #083172;
     }
 
     .logo{
