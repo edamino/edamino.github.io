@@ -1,102 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <title>Edamino | Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cc2bb24dbf.js" crossorigin="anonymous"></script>
-    <title>Edamino | Portfolio</title>
-</head>
-<body>
-   <section class="hero">
-       <nav>
-           <img class="logo" src="src/images/Edamino-logo-new.png" alt="edamino logo"/> 
-           <ul id="nav-list">
-               <li><a href="#about-me">About Me</a></li>
-               <li><a href="#project">Project</a></li>
-               <li><a href="#contact">Contact</a></li>
-           </ul>
-           <button class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-           </button>
-       </nav>
-       
-       <div class="hero-area">
-            <div class="hero-text">
-                <h1>Eddy Aminode</h1>
-                <p>Full Stack Developer</p>
-                <div class="button"><a href="#about-me">About me</a></div>
-            </div>
-            <div  class="socials">
-                <div>
-                    <a href="http://www.twitter.com/MrEdamino" class="social">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-                    </a>
-                </div>
-                <div>
-                    <a href="http://www.linkedin.com/in/eddy-aminode/" class="social">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-                    </a>
-                </div>
-                <div>
-                    <a href="http://www.github.com/edamino" class="social">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    </a>
-                </div>
-            </div>
-       </div> 
-   </section>
-   <section class="sub-section" id="about-me">
-       <div class="information">
-           <h2>About Me</h2>
-           <p>Hello! My name is a Eddy Aminode. I am a Web/Mobile Developer with extensive experience in IT Operations. Also a Chess addict that loves dancing with a passion of coaching</p>
-       </div>
-       <div class="headshot-container">
-           <img class="headshot" src="src/images/eddyprofile.jpg" alt="Eddy Aminode headshot" width="400" height="300"/>
-       </div>
-   </section>
-   <section class="sub-section-alternative" id="project">
-       <h2>Projects</h2>
-       <div class="project-container">
-           <div class="project-card">
-               <img class="project-image" src="src/images/edamino-office-shopping-cart.PNG" alt="Project One" />
-               <h3>Shopping Cart</h3>
-               <p class="subtext">This is my project on Vanilla JS. It uses the headless CMS platform called Contentful. I enjoyed making it</p>
-               <hr/>
-               <p class="subtext"><a class="project-link" href="https://edamino-office-shopping-cart.netlify.app/">View Here</a></p>
-           </div>
-           <div class="project-card">
-            <img class="project-image" src="src/images/" alt="Project Two" />
-            <h3>Project Two</h3>
-            <p class="subtext">This is my project . I enjoyed making it</p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://www.github.com/edamino/">View Here</a></p>
-           </div>
-           <div class="project-card">
-            <img class="project-image" src="src/images/portfolio-projects.png" alt="Project Three" />
-            <h3>Project Three</h3>
-            <p class="subtext">This is my project and some text about it. I enjoyed making it</p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://www.github.com/edamino/">View Here</a></p>
-           </div>
-           <div class="project-card">
-            <img class="project-image" src="src/images/web-app-dev.jpg" alt="Project Four" />
-            <h3>Project Four</h3>
-            <p class="subtext">This is my project and some text about it. I enjoyed making it</p>
-            <hr/>
-            <p class="subtext"><a class="project-link" href="https://www.github.com/edamino/">View Here</a></p>
-           </div>
-       </div>
-   </section>
-   <footer id="contact">
-        <h2>Contact me</h2>
-        <p>edamino101@gmail.com</p>
-   </footer>
+    <meta name="description" content="Edamino Portfolio">
+    <meta name="author" content="Eddy Aminode">    
+    <link rel="shortcut icon" href="favicon.ico">  
     
-   <script src="src/app.js"></script> 
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/eddy-headshot (2).jpg" alt="profile image" width="150rem" height="30rem"/>
+		            <div class="profile-content">
+		                <h1 class="name">Eddy Aminode</h1>
+		                <h2 class="desc">Web App Developer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://www.twitter/MrEdamino"><i class="fab fa-twitter"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://www.linkedin/in/eddy-aminode/"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://www.github.com/edamino"><i class="fab fa-github-alt"></i></a></li>    
+		                      
+		                    <li class="list-inline-item last-item"><a href=""><i class="fab fa-codepen"></i></a></li>                
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="mailto:edamino101@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am a fullstack Web/Mobile Developer with extensive experience in IT Operations.</p>
+                            <p>I am an also an erudite ambivent with a passion for technology. I love playing chess and dancing. I love helping people navigate from a position of the unknown to the known by eliminating thier painpoints.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                               
+                            
+                            <!-- <div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">CoderPro - Boootstrap Startup Template For Software Projects</a></h3>
+                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            <!-- </div>//item --> -->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://edamino-office-shopping-cart.netlify.app/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://edamino-office-shopping-cart.netlify.app/" target="_blank">Shopping Cart - Built with pure Vanilla JS</a></h3>
+                                    <p class="mb-2">This Shopping cart project is the first step towards building a full blown Ecommerce Web application with the MERN stack integrated with a payment gateway.</p>
+                                    <p>Currently tt uses the headless CMS platform called Contentful</p>
+                                    <p><a class="more-link" href="https://www.github.com/edamino" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             
+                            <a class="btn btn-cta-secondary" href="https://www.github.com/edamino">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                              
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Developer - <span class="place"><a href="#">Diric Technologies</a></span> <span class="year">(2021 - Present)</span></h3>
+                                <p> - Build custom solutions for clients using Web Technologies like React, Angular, BootStrap, Node.js, Python and Django</p>
+                                <p> - Manage application deployment using CI/CD methodologies and tools like Docker, Kubernetes, Jenkins, GitHub Actions</p>
+                                <p> - Manage application hosting Infrastructure in AWS, Azure & Google CLoud</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Systems Administrator / IT Operations Engineer - <span class="place"><a href="https://www.virginforest.com.ng">Virgin Forest Energy</a></span> <span class="year">(2017 - 2021)</span></h3>
+                                <p> - Managed the Technology Infrastructure for the company's five locations;</p>
+                                <p> - Implemented and managed the Deployment of 2Mbps Lease line on Last mile for the Depot/Tank Farm</p>
+                                <p> - Business Process Automation: Streamlined departments processes and implemented a workflow automation portal built with PHP.</p>
+                                <p> - Prepares and manages annual IT Budget</p>
+                                <p> - Created and Implemented IT policies and procedures in alignment to IT standards</p>
+                                <p> - Supervised IT support in the remote locations</p>
+                                <p> - Implemented and managed the deployment of Five (5) Security CCTV systems and Burglary/Fire Alarm system in five (5)
+                                company locations using Hikvision.</p>
+                                <p> - Deployed an upgrade on email systems to Google Cloud using G-Suite services</p>
+                                <p> - Sage 300 ERP: Proposed and deployed the ERP suite from local server to Azure cloud and daily administration of the software
+                                application and Azure platform.</p>
+                                <p> - Website Management: Upgraded the company's website built with WordPress which led to a 80% increament in traffic</p>
+                                <p> - Windows Server Management: Manage server backups and perform data restores as needed</p>
+                                <p> - Network Monitoring and Management: Manage network Infrastructure using Mikrotik, cisco & Ubiquiti devices</p>
+                                <p> - Antivirus: Deployed central Antivirus management using Kaspersky Endpoint Security10.</p>
+                                <p> - Incident Management: Provided first, second- and third-line support on incident/service request</p>
+                                <p> - Vendor Management: Liaise with all vendors for negotiation, projects supervision and budgeting. Supervise contractors
+                                to ensure policies/procedures are adhered to</p>
+                                
+
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">IT Operations Officer - <span class="place"><a href="#">World Missins Agency</a></span> <span class="year">(2015 - 2016)</span></h3>
+                                <p> - Executed 1st, 2nd and 3rd line support tasks as the single point of contact to record and resolve all Incidents and
+                                Service requests </p>
+                                <p> - Resolved Incidents and followed up with the user on status, and escalated if necessary</p>
+                                <p> - Made diagnosis and resolved hardware and software faults.</p>
+                                <p> - Liaised with appropriate 3rd party vendors as necessary.</p>
+                                <p> - Managed server and users account using Active directory and Microsoft Exchange Server 2013</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+               
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Lagos, Nigeria</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">edamino101@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="https://www.edamino.com">https://www.edamino.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Some highlight of my skills amongst others</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; React &amp; Angular <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 94%" aria-valuenow="94"  aria-valuemin="0" aria-valuemax="94"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Node.js <span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://www.github.com/edamino"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+              
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Business Information System</h3>
+                                <h4 class="university">University of East London <span class="year">(2014 - 2015)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BEng Information & Communication Engineering</h3>
+                                <h4 class="university">Covenant University <span class="year">(2008-2013)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="blog aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <p>Coming Soon!</p>
+                        
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
